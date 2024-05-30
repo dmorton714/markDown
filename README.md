@@ -16,7 +16,7 @@ pip install pandas
 2. Import the Module: In you Python script or Jupyter Notebook, you can import the markDown.py module like so:
 
 ```python
-import markDown
+from markDown import markdownTable, markdownSeries
 ```
 3. Use the Functions: Once imported, you can use the `dataframe_to_markdown` and `series_to_markdown` functions directly, or you can utilize the extended functionality added to Pandas DataFrame and Series.
 
