@@ -18,7 +18,7 @@ pip install pandas
 ```python
 from markDown import markdownTable, markdownSeries
 ```
-3. Use the Functions: Once imported, you can use the `dataframe_to_markdown` and `series_to_markdown` functions directly, or you can utilize the extended functionality added to Pandas DataFrame and Series.
+3. Use the Functions: Once imported, you can use the `markdownTable` and `markdownSeries` functions directly, or you can utilize the extended functionality added to Pandas DataFrame and Series.
 
 For example, to convert a DataFrame to a markdown table:
 
@@ -34,7 +34,7 @@ Or, to convert a Series to a markdown table:
 import pandas as pd
 
 # Assuming 'series' is the Series you want to convert
-markdown_table = series.markdownTable()
+markdown_table = series.markdownSeries()
 ```
 
 Users can also specify specific columns for DataFrame conversion:
