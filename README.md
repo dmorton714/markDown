@@ -25,7 +25,7 @@ For example, to convert a DataFrame to a markdown table:
 ```python
 import pandas as pd
 
-# Assuming 'df' is the DataFrame they want to convert
+# Assuming 'df' is the DataFrame you want to convert
 markdown_table = df.markdownTable()
 ```
 Or, to convert a Series to a markdown table:
@@ -33,7 +33,7 @@ Or, to convert a Series to a markdown table:
 ```python
 import pandas as pd
 
-# Assuming 'series' is the Series they want to convert
+# Assuming 'series' is the Series you want to convert
 markdown_table = series.markdownTable()
 ```
 
